@@ -5,14 +5,17 @@ using UnityEngine;
 public class SetPolygonCollider : MonoBehaviour {
 
     PolygonCollider2D pc;
+
 	// Use this for initialization
 	void Awake () {
         pc = GetComponent<PolygonCollider2D>();
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        print(pc.points[0]);
+       
+        //print(pc.points[0]);
     }
 
 
