@@ -13,7 +13,7 @@ public class testUpdate : MonoBehaviour {
     void Start () {
         //isShow = tc.isShow;
         //if (!isShow)
-        //Destroy(this.gameObject);
+        Destroy(this.gameObject);
     }
     bool isShow;
     // Update is called once per frame
